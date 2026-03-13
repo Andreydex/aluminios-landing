@@ -64,7 +64,6 @@ export default function Features() {
   </ul>
 </div>
 
-
         {/* Tarjeta 3 */}
          <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50">
   <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2">Otros servicios</h3>
