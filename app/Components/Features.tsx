@@ -8,7 +8,7 @@ export default function Features() {
         <div className="p-6 border border-gray-200 rounded-xl hover:shadow-lg transition">
           {/* Corregido: de 4x1 a 4xl */}
           <h3 className="text-2xl font-bold mb-2 text-blue-600">Material Premium</h3>
-          <p className="text-gray-600 italic">Aluminio de alta resistencia para durar años.</p>
+          <p className="text-gray-600 italic">Aluminio de alta resistencia</p>
         </div>
 
         {/* Tarjeta 2 */}
