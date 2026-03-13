@@ -1,10 +1,15 @@
+import Navbar from './Components/navbar';
 import Image from "next/image";
-import Hero from "./Components/Hero";     
+import Hero from "./Components/Hero";
+import Features from "./Components/Features";
+
 export default function Home() {
   return (
     <main>
-      <h1>Aluminios y Ventanas</h1>
-      <p>Próximamente el mejor servicio de Puerto Vallarta</p>
+      <Navbar />
+      <Hero />
+      <Features />
+     
     </main>
   );
 }
