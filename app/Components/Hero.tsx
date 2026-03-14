@@ -1,14 +1,25 @@
 export default function Hero() {
   return (
-    <div className="Info">
-  <section className="p-20 bg-gray-800 text-white text-center">
-    <h1 className="text-5xl font-Bebas Neue font-extrabold tracking-tighter">
-        CRISTA<span className="text-blue-500">LIA</span></h1>
-    <p className="mt-4 text-1xl">El mejor servicio de Puerto Vallarta</p>
-    <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
-  Cotizar Presupuesto
-</button>
-  </section>
-  </div>
+    <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
+      {/* Capa de Imagen de Fondo */}
+      <div 
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero-bg.jpg')" }} 
+      >
+        {/* Filtro oscuro (Overlay) para que el nombre Cristalia resalte */}
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
+
+      {/* Contenido del Hero */}
+      <div className="relative z-10 text-center text-white px-4">
+        <h1 className="text-7xl md:text-9xl font-['Bebas_Neue'] font-bold tracking-[0.15em] drop-shadow-lg">
+          CRISTA<span className="text-blue-500">LIA</span>
+        </h1>
+        <p className="mt-4 text-2xl md:text-3xl font-['Bebas_Neue'] tracking-widest text-gray-200">
+          Aluminios y Cristales
+        </p>
+       
+      </div>
+    </section>
   );
 }

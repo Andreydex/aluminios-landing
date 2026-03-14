@@ -6,11 +6,11 @@ export default function Features() {
         
         {/* Tarjeta 1 */}
         <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50">
-  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2">
+  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2 font-['Bebas_Neue']">
     Fabricación e Instalación
   </h3>
  
-  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-gray-700">
+  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-gray-700 font-['Bebas_Neue']">
     <li className="flex items-center gap-2">
       <span className="text-blue-500 font-bold">✓</span> Ventanas
     </li>
@@ -45,8 +45,8 @@ export default function Features() {
 </div>
 
         {/* Tarjeta 2 */}
-        <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50">
-  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2">Trabajos en vidrio</h3>
+        <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50 font-['Bebas_Neue']">
+  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2 font-['Bebas_Neue']">Trabajos en vidrio</h3>
  
   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-gray-700">
     <li className="flex items-center gap-2">
@@ -65,8 +65,8 @@ export default function Features() {
 </div>
 
         {/* Tarjeta 3 */}
-         <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50">
-  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2">Otros servicios</h3>
+         <div className="p-8 border border-gray-200 rounded-2xl hover:shadow-2xl transition-all duration-300 bg-slate-50 font-['Bebas_Neue']">
+  <h3 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-100 pb-2 font-['Bebas_Neue']">Otros servicios</h3>
  
   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-gray-700">
     <li className="flex items-center gap-2">

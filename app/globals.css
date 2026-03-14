@@ -1,25 +1,15 @@
 @import "tailwindcss";
+
+/* Colores base para tu marca de Aluminios */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Fondo blanco para las secciones de tarjetas */
+  --foreground: #111827; /* Texto casi negro (slate-900) para lectura clara */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Esto quita el modo oscuro automático que a veces ensucia el diseño */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+  margin: 0;
 }
